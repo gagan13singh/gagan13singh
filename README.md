@@ -1,16 +1,25 @@
+<!--
+  ╔══════════════════════════════════════════════════════╗
+  ║         GAGANDEEP SINGH — GitHub Profile README      ║
+  ║         gagan13singh/gagan13singh                    ║
+  ╚══════════════════════════════════════════════════════╝
+-->
+
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Gagandeep%20Singh&fontSize=50&fontColor=ffffff&fontAlignY=38&desc=Full%20Stack%20Developer%20%7C%20AI%20%26%20Edge%20Computing%20Enthusiast&descAlignY=58&descSize=18&animation=fadeIn" width="100%"/>
+<!-- CUSTOM SVG BANNER — always renders, no external dependency -->
+<img src="https://raw.githubusercontent.com/gagan13singh/gagan13singh/main/banner.svg" width="100%" alt="Gagandeep Singh — Full Stack Developer | AI & Edge Computing"/>
 
+<!-- Typing animation -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&pause=1200&color=A855F7&center=true&vCenter=true&width=620&lines=React+Developer+Intern+%40+Japneet;Building+AI+that+runs+100%25+in+your+browser;WebGPU+%7C+WASM+%7C+LLM+%7C+Edge+AI;CGPA%3A+9.27+%7C+B.Tech+CSE+%40+GGSIPU;Turning+ideas+into+shipped+products+%F0%9F%9A%80" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&pause=1200&color=A855F7&center=true&vCenter=true&width=620&lines=React+Developer+Intern+%40+Japneet;Building+AI+that+runs+100%25+in+the+browser+%F0%9F%9B%A1%EF%B8%8F;WebGPU+%7C+WASM+%7C+LLM+%7C+Edge+AI;CGPA%3A+9.27+%7C+B.Tech+CSE+%40+GGSIPU+%F0%9F%8E%93;Turning+ideas+into+shipped+products+%F0%9F%9A%80" alt="Typing SVG" />
 </a>
 
 <br/><br/>
 
 [![Portfolio](https://img.shields.io/badge/🌐%20Portfolio-Visit-7c3aed?style=for-the-badge)](https://my-portfolio-gs.vercel.app/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/gagandeep-singh-43b932272/)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github)](https://github.com/gagan13singh)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gagandeep-singh-43b932272/)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/gagan13singh)
 [![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gagandeepsingh130305@gmail.com)
 ![Visitors](https://komarev.com/ghpvc/?username=gagan13singh&style=for-the-badge&color=7c3aed&label=Profile+Views)
 
@@ -235,8 +244,6 @@ const gagandeep = {
 
 <br/>
 
-*"The best way to predict the future is to build it."*
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer" width="100%"/>
+*`// the AI that never phones home`*
 
 </div>
