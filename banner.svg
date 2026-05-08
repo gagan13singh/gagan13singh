@@ -1,0 +1,111 @@
+<svg width="900" height="280" viewBox="0 0 900 280" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0e1a"/>
+      <stop offset="50%" style="stop-color:#0f0a2e"/>
+      <stop offset="100%" style="stop-color:#0a0e1a"/>
+    </linearGradient>
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#c084fc"/>
+      <stop offset="50%" style="stop-color:#818cf8"/>
+      <stop offset="100%" style="stop-color:#38bdf8"/>
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#c084fc;stop-opacity:0"/>
+      <stop offset="30%" style="stop-color:#c084fc;stop-opacity:1"/>
+      <stop offset="70%" style="stop-color:#38bdf8;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#38bdf8;stop-opacity:0"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softglow">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="280" fill="url(#bg)"/>
+
+  <!-- Grid lines - horizontal -->
+  <line x1="0" y1="70" x2="900" y2="70" stroke="#c084fc" stroke-width="0.3" stroke-opacity="0.15"/>
+  <line x1="0" y1="140" x2="900" y2="140" stroke="#c084fc" stroke-width="0.3" stroke-opacity="0.1"/>
+  <line x1="0" y1="210" x2="900" y2="210" stroke="#c084fc" stroke-width="0.3" stroke-opacity="0.15"/>
+
+  <!-- Grid lines - vertical -->
+  <line x1="150" y1="0" x2="150" y2="280" stroke="#818cf8" stroke-width="0.3" stroke-opacity="0.12"/>
+  <line x1="300" y1="0" x2="300" y2="280" stroke="#818cf8" stroke-width="0.3" stroke-opacity="0.12"/>
+  <line x1="450" y1="0" x2="450" y2="280" stroke="#818cf8" stroke-width="0.3" stroke-opacity="0.12"/>
+  <line x1="600" y1="0" x2="600" y2="280" stroke="#818cf8" stroke-width="0.3" stroke-opacity="0.12"/>
+  <line x1="750" y1="0" x2="750" y2="280" stroke="#818cf8" stroke-width="0.3" stroke-opacity="0.12"/>
+
+  <!-- Floating dots - constellation style -->
+  <circle cx="80" cy="50" r="1.5" fill="#c084fc" opacity="0.7"/>
+  <circle cx="160" cy="30" r="1" fill="#818cf8" opacity="0.5"/>
+  <circle cx="240" cy="65" r="2" fill="#38bdf8" opacity="0.6"/>
+  <circle cx="380" cy="25" r="1.5" fill="#c084fc" opacity="0.5"/>
+  <circle cx="520" cy="45" r="1" fill="#818cf8" opacity="0.6"/>
+  <circle cx="650" cy="28" r="2" fill="#38bdf8" opacity="0.5"/>
+  <circle cx="770" cy="55" r="1.5" fill="#c084fc" opacity="0.7"/>
+  <circle cx="850" cy="35" r="1" fill="#818cf8" opacity="0.5"/>
+  <circle cx="820" cy="230" r="1.5" fill="#c084fc" opacity="0.5"/>
+  <circle cx="100" cy="220" r="2" fill="#38bdf8" opacity="0.4"/>
+  <circle cx="700" cy="240" r="1" fill="#818cf8" opacity="0.5"/>
+
+  <!-- Constellation lines -->
+  <line x1="80" y1="50" x2="160" y2="30" stroke="#818cf8" stroke-width="0.5" stroke-opacity="0.3"/>
+  <line x1="160" y1="30" x2="240" y2="65" stroke="#818cf8" stroke-width="0.5" stroke-opacity="0.3"/>
+  <line x1="650" y1="28" x2="770" y2="55" stroke="#c084fc" stroke-width="0.5" stroke-opacity="0.3"/>
+  <line x1="770" y1="55" x2="850" y2="35" stroke="#c084fc" stroke-width="0.5" stroke-opacity="0.3"/>
+
+  <!-- Corner brackets - top left -->
+  <path d="M30,20 L30,50 M30,20 L60,20" stroke="#c084fc" stroke-width="1.5" fill="none" stroke-opacity="0.8"/>
+  <!-- Corner brackets - top right -->
+  <path d="M870,20 L870,50 M870,20 L840,20" stroke="#c084fc" stroke-width="1.5" fill="none" stroke-opacity="0.8"/>
+  <!-- Corner brackets - bottom left -->
+  <path d="M30,260 L30,230 M30,260 L60,260" stroke="#38bdf8" stroke-width="1.5" fill="none" stroke-opacity="0.8"/>
+  <!-- Corner brackets - bottom right -->
+  <path d="M870,260 L870,230 M870,260 L840,260" stroke="#38bdf8" stroke-width="1.5" fill="none" stroke-opacity="0.8"/>
+
+  <!-- Ambient glow behind name -->
+  <ellipse cx="450" cy="125" rx="260" ry="60" fill="#7c3aed" opacity="0.07"/>
+
+  <!-- Tag label top -->
+  <text x="450" y="62" font-family="'Courier New', monospace" font-size="11" fill="#818cf8" opacity="0.7" text-anchor="middle" letter-spacing="4">{ FULL STACK · AI · EDGE COMPUTING }</text>
+
+  <!-- Main name -->
+  <text x="450" y="130" font-family="'Segoe UI', Arial, sans-serif" font-size="62" font-weight="800" fill="url(#nameGrad)" text-anchor="middle" letter-spacing="2" filter="url(#glow)">GAGANDEEP SINGH</text>
+
+  <!-- Divider line -->
+  <rect x="175" y="148" width="550" height="1.5" fill="url(#lineGrad)" rx="1"/>
+
+  <!-- Subtitle -->
+  <text x="450" y="178" font-family="'Courier New', monospace" font-size="13.5" fill="#94a3b8" text-anchor="middle" letter-spacing="2.5">React Developer Intern  ·  B.Tech CSE @ GGSIPU  ·  CGPA 9.27</text>
+
+  <!-- Tech pills -->
+  <rect x="175" y="200" width="80" height="22" rx="11" fill="#c084fc" fill-opacity="0.12" stroke="#c084fc" stroke-width="0.8" stroke-opacity="0.5"/>
+  <text x="215" y="215" font-family="'Courier New', monospace" font-size="10" fill="#c084fc" text-anchor="middle" letter-spacing="1">WebGPU</text>
+
+  <rect x="268" y="200" width="65" height="22" rx="11" fill="#818cf8" fill-opacity="0.12" stroke="#818cf8" stroke-width="0.8" stroke-opacity="0.5"/>
+  <text x="300" y="215" font-family="'Courier New', monospace" font-size="10" fill="#818cf8" text-anchor="middle" letter-spacing="1">WASM</text>
+
+  <rect x="346" y="200" width="55" height="22" rx="11" fill="#38bdf8" fill-opacity="0.12" stroke="#38bdf8" stroke-width="0.8" stroke-opacity="0.5"/>
+  <text x="373" y="215" font-family="'Courier New', monospace" font-size="10" fill="#38bdf8" text-anchor="middle" letter-spacing="1">LLM</text>
+
+  <rect x="414" y="200" width="75" height="22" rx="11" fill="#34d399" fill-opacity="0.12" stroke="#34d399" stroke-width="0.8" stroke-opacity="0.5"/>
+  <text x="451" y="215" font-family="'Courier New', monospace" font-size="10" fill="#34d399" text-anchor="middle" letter-spacing="1">MERN</text>
+
+  <rect x="502" y="200" width="55" height="22" rx="11" fill="#f472b6" fill-opacity="0.12" stroke="#f472b6" stroke-width="0.8" stroke-opacity="0.5"/>
+  <text x="529" y="215" font-family="'Courier New', monospace" font-size="10" fill="#f472b6" text-anchor="middle" letter-spacing="1">React</text>
+
+  <rect x="570" y="200" width="60" height="22" rx="11" fill="#fb923c" fill-opacity="0.12" stroke="#fb923c" stroke-width="0.8" stroke-opacity="0.5"/>
+  <text x="600" y="215" font-family="'Courier New', monospace" font-size="10" fill="#fb923c" text-anchor="middle" letter-spacing="1">Node.js</text>
+
+  <rect x="643" y="200" width="80" height="22" rx="11" fill="#a78bfa" fill-opacity="0.12" stroke="#a78bfa" stroke-width="0.8" stroke-opacity="0.5"/>
+  <text x="683" y="215" font-family="'Courier New', monospace" font-size="10" fill="#a78bfa" text-anchor="middle" letter-spacing="1">TypeScript</text>
+
+  <!-- Bottom tag -->
+  <text x="450" y="254" font-family="'Courier New', monospace" font-size="10" fill="#475569" text-anchor="middle" letter-spacing="3">// building AI that lives in your browser</text>
+</svg>
